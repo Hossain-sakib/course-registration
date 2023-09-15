@@ -10,7 +10,7 @@ const Cards = ({handleSelect}) => {
         .then(data=>setCards(data))
     },[])
     return (
-        <div className="w-2/3 md:w-3/4 lg:w-3/4 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-10">
+        <div className="w-1/2 md:w-2/3 lg:w-3/4 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-10">
             {
                 cards.map(card=><Card 
                     key={card.id}

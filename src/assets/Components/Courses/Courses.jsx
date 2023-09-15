@@ -1,17 +1,20 @@
-const Courses = ({courses}) => {
-    const {title} = courses;
+import Course from "../Course/Course";
+
+const Courses = ({ courses, remainingCredits, totalCredits, totalPrice }) => {
     return (
-        <div>
-            <p>Credit Hour Remaining {} hr</p>
+        <div className="h-1/3 w-1/2 md:1/3 lg:w-1/4 bg-white rounded-2xl shadow-xl px-3 py-3 space-y-4">
+            <p className="text-left text-xl text-blue-500 font-bold">Credit Hour Remaining {remainingCredits} hr</p>
             <hr />
-            <h3>Course Name</h3>
-                <ol>
-                    <li>{title}</li>
-                </ol>
+            <h3 className="text-left text-2xl font-bold">Course Name</h3>
+            {
+                courses.map(course => <Course
+                    key={course.id}
+                    course={course}></Course>)
+            }
             <hr />
-            <p>Total Credit Hour:{}</p>
+            <p className="text-left text-base text-slate-600 font-semibold">Total Credit Hour: {totalCredits}</p>
             <hr />
-            <p>Total Price: {}</p>
+            <p className="text-left text-base text-slate-600 font-bold">Total Price: {totalPrice} USD</p>
         </div>
     );
 };
