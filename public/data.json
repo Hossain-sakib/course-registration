@@ -3,7 +3,7 @@
     "id": 1,
     "image": "https://i.ibb.co/gJZ4gw1/Rectangle-2-2.png",
     "title": "Introduction to C Programming",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "description": "A C programming course teaches the basics of the C language. Students learn syntax, control structures, and pointers, gaining essential programming knowledge.",
     "price": 15000,
     "credit_hour": 1
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "image": "https://i.ibb.co/rMDsjSG/Rectangle-2-3.png",
     "title": "Introduction to Algorithms",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "description": "An algorithm course teaches how to create and analyze step-by-step procedures for solving problems efficiently, a core skill in computer science and programming.",
     "price": 25000,
     "credit_hour": 2
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "image": "https://i.ibb.co/TwzTNSp/Rectangle-2-4.png",
     "title": "Introduction to C++ for DSA",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "description": "C++ Course: Covers C++ programming, emphasizing object-oriented principles and versatile software development skills, valuable in diverse domains.Learn and set up your career.",
     "price": 10000,
     "credit_hour": 10
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "image": "https://i.ibb.co/3p4BdQK/Rectangle-3.png",
     "title": "Basic Data Structures",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "description": "Data Structure Course: Focuses on organizing and managing data efficiently, teaching various data structures like arrays, linked lists, and trees.Learn and set up career.Be yourself.",
     "price": 35000,
     "credit_hour": 5
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "image": "https://i.ibb.co/K5Y7qmh/Rectangle-2.png",
     "title": "Introduction to OOP Python",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "description": "Python Course: Covers the Python programming language, known for its simplicity and versatility, used in web development, data analysis, artificial intelligence, and more.Be yourself.",
     "price": 19000,
     "credit_hour": 5
   },
@@ -43,15 +43,15 @@
     "id": 6,
     "image": "https://i.ibb.co/5KXYhnP/Rectangle-2-5.png",
     "title": "Software Engineering",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "description": "Software Engineering Course: Teaches principles and methodologies for designing, developing, and maintaining high-quality software, emphasizing problem-solving and collaboration.",
     "price": 23000,
-    "credit_hour":2
+    "credit_hour": 2
   },
   {
     "id": 7,
     "image": "https://i.ibb.co/T1g04KT/Rectangle-3-1.png",
     "title": "AWS, Cloud Computing",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "description": "Cloud Computing Course: Explores cloud technologies and services, teaching how to design, deploy, and manage applications in cloud environments, vital for modern IT solutions.",
     "price": 35000,
     "credit_hour": 5
   },
@@ -59,7 +59,7 @@
     "id": 8,
     "image": "https://i.ibb.co/VqGFVfD/Rectangle-2-1.png",
     "title": "Database (MySQL)",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "description": "Database SQL Course: Focuses on SQL (Structured Query Language) for managing and querying databases, essential for data storage and retrieval in various applications.Learn and Be yourself.",
     "price": 19000,
     "credit_hour": 5
   },
@@ -67,7 +67,7 @@
     "id": 9,
     "image": "https://i.ibb.co/hfCTyy2/Rectangle-2-6.png",
     "title": "Problem-Solving Part",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "description": "Problem Solving Course: Equips students with systematic approaches to tackle complex problems, enhancing critical thinking and analytical skills across various domains.",
     "price": 23000,
     "credit_hour": 2
   }
