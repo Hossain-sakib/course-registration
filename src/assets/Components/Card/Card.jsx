@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 const Card = ({ card, handleSelect }) => {
@@ -22,11 +23,15 @@ const Card = ({ card, handleSelect }) => {
                 </div>
             </div>
             <div className="flex justify-center bg-blue-500 rounded-lg">
-                <button onClick={() => handleSelect(card, price, credit_hour)} className="text-lg font-bold text-white py-3 px-32">Select</button>
+                <button onClick={() => handleSelect(card, price, credit_hour)} className="w-full text-lg font-bold text-white py-3 ">Select</button>
                 <ToastContainer />
             </div>
         </div>
     );
 };
+Card.propTypes = {
+    card: PropTypes.object.isRequired,
+    handleSelect: PropTypes.func.isRequired
+}
 
 export default Card;

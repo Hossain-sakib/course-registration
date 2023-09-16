@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import Course from "../Course/Course";
 
 const Courses = ({ courses, remainingCredits, totalCredits, totalPrice }) => {
@@ -18,5 +19,12 @@ const Courses = ({ courses, remainingCredits, totalCredits, totalPrice }) => {
         </div>
     );
 };
+Courses.propTypes = {
+    courses: PropTypes.array.isRequired,
+    remainingCredits: PropTypes.number.isRequired,
+    totalCredits: PropTypes.number.isRequired,
+    totalPrice: PropTypes.number.isRequired
+
+}
 
 export default Courses;

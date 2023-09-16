@@ -13,10 +13,6 @@ function App() {
   const [totalPrice, setTotalPrice] = useState(0);
 
   const handleSelect = (card, price, credit_hour) => {
-
-
-
-
     let newCourses = [...courses, card];
     let isExist = courses.find(item => item == card);
     let creditCount = totalCredits + credit_hour;
