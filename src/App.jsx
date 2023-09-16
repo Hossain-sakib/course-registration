@@ -20,12 +20,12 @@ function App() {
       toast("You can't enroll same course more than one time");
     }
     else {
-      setCourses(newCourses);
       setTotalPrice(totalPrice + price);
       if (creditCount > 20) {
         toast("You can't enroll more than 20 credits");
       }
       else {
+        setCourses(newCourses);
         setTotalCredits(totalCredits + credit_hour);
         setRemainingCredits(remainingCredits - credit_hour);
 
