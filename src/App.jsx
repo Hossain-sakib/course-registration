@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './App.css'
 import Cards from './assets/Components/Heading/Cards/Cards'
 import Heading from './assets/Components/Heading/Heading'
@@ -11,12 +13,28 @@ function App() {
   const [totalPrice, setTotalPrice] = useState(0);
 
   const handleSelect = (card, price, credit_hour) => {
-    const newCourses = [...courses, card];
-    setCourses(newCourses);
-    setTotalPrice(totalPrice + price);
-    setTotalCredits(totalCredits + credit_hour);
-    setRemainingCredits(remainingCredits - credit_hour);
 
+
+
+
+    let newCourses = [...courses, card];
+    let isExist = courses.find(item => item == card);
+    let creditCount = totalCredits + credit_hour;
+    if (isExist) {
+      toast("You can't enroll same course more than one time");
+    }
+    else {
+      setCourses(newCourses);
+      setTotalPrice(totalPrice + price);
+      if (creditCount > 20) {
+        toast("You can't enroll more than 20 credits");
+      }
+      else {
+        setTotalCredits(totalCredits + credit_hour);
+        setRemainingCredits(remainingCredits - credit_hour);
+
+      }
+    }
 
   }
 
